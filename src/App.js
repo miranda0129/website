@@ -8,33 +8,28 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    
+    <div> 
+      <div>
+        <div class="section">
+          <div class="header">
+            <div class="card">
+              <h1>Hello</h1>
+              <h1>My name is Miranda Ransom</h1>
+            </div>
+          </div>
+          <div class="body">
+            <h3>Connect With Me</h3>
+            <div class="grid-container">
+              <div class="grid-item" id="github-link">1</div>
+              <div class="grid-item" id="linkdin-link">2</div>
+              <div class="grid-item" id="gmail-link">3</div>
+            </div>
+          </div>
+        </div>
 
-        <div class="nav">
-        <ul>
-          <li>
-            <Link to="/">Projects</Link>
-          </li>
-          <li>
-            <Link to="/Articles">Articles</Link>
-          </li>
-          <li>
-            <Link to="/About">About</Link>
-          </li>
-        </ul>
       </div>
-      <hr />
-
-    
-      <Switch>
-        <Route exact path="/" component={Projects} />
-        <Route exact path="/articles" component={Articles} />
-        <Route exact path="/about" component={About} />
-      </Switch>
-    
-      
-    </BrowserRouter>
-    
+    </div>
   );  
 }
 
