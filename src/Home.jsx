@@ -40,23 +40,44 @@ class Body extends React.Component{
     render(){
         return(
             <div ref={div => this.myElement = div }>
+                <Blurb /> 
+                <Socials />
+            </div>
+        );
+    }
+}
+
+class Blurb extends React.Component{
+    render(){
+        return(
+            <div class="blurb"> 
+                <p>Software engineer, web developer, digital photographer & creative</p>
+            </div>
+        );
+    }
+}
+
+class Socials extends React.Component{
+    render(){
+        return(
+            <div class="socials">
                 <h3>Connect With Me</h3>
-                        <div class="grid-container">
-                        <div class="grid-item" id="github-link">
-                            <a href="https://github.com/miranda0129">
-                                <img src={GitHubLogo} alt="GitHubLogo"/>
-                            </a>
-                        </div>
-                        <div class="grid-item" id="linkdin-link">
-                            <a href = "https://www.linkedin.com/in/miranda-ransom-15989a1a9/">
-                                <img src={LinkedinLogo} alt="LinkedinLogo"></img>
-                            </a>
-                        </div>
-                        <div class="grid-item" id="gmail-link">
-                            <a href="mailto:mirandaransom.0129@gmail.com">
-                                <img src={GmailLogo} alt="Gmail Logo"></img>
-                            </a>
-                        </div>
+                <div class="grid-container">
+                    <div class="grid-item" id="github-link">
+                        <a href="https://github.com/miranda0129">
+                            <img src={GitHubLogo} alt="GitHubLogo"/>
+                        </a>
+                    </div>
+                    <div class="grid-item" id="linkdin-link">
+                        <a href = "https://www.linkedin.com/in/miranda-ransom-15989a1a9/">
+                            <img src={LinkedinLogo} alt="LinkedinLogo"></img>
+                        </a>
+                    </div>
+                    <div class="grid-item" id="gmail-link">
+                        <a href="mailto:mirandaransom.0129@gmail.com">
+                            <img src={GmailLogo} alt="Gmail Logo"></img>
+                        </a>
+                    </div>
                 </div>
             </div>
         );
@@ -94,7 +115,7 @@ class Intro extends React.Component{
         return(
             <div ref={div => this.myElement = div }>
                 <h1>Hello</h1>
-                <h1>My name is Miranda Ransom</h1>
+                <h1>I'm Miranda Ransom</h1>
             </div>
         );
     }
