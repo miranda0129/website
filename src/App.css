@@ -26,7 +26,6 @@ body{
 }
 
 .App-header {
-  background-color: #e90d0d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -61,14 +60,6 @@ body{
   display: inline;
 }
 
-.li {
-  color: #e90d0d;
-  width: 33%;
-}
-
-.ul.li.a{
-  color: #e90d0d;
-}
 
 .grid-container {
   display: grid;
@@ -95,9 +86,13 @@ body{
 
 .header{
   background-color: #065c6f;
-  height: 20vh;
+  color: #faf3dd;
   padding: 1em;
   padding-top: 2em;
+  padding-bottom: 0;
+  min-height: 20vh;
+  align-items: center;
+  font-size: 1.5em;
 }
 
 .card{
@@ -112,12 +107,14 @@ body{
   letter-spacing: 0.1em;
   margin: 0.5em;
   padding: 0.5em;
+  color: #065c6f;
 }
 
 .blurb{
   height: 20vh;
   text-align: left;
-  padding-top: 5em;
+  padding-top: 2em;
+  font-size: 1.5em;
 }
 
 .socials{
@@ -127,6 +124,15 @@ body{
 }
 
 .grid-item{
-  padding: 0;
+  padding: 5;
   margin: 0.4em;
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#social-icons{
+  justify-content: center;  
 }
