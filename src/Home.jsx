@@ -50,7 +50,7 @@ class Body extends React.Component{
 class Blurb extends React.Component{
     render(){
         return(
-            <div className="blurb"> 
+            <div className="flex-container blurb"> 
                 <p>Software engineer, web developer, digital photographer & creative</p>
             </div>
         );
