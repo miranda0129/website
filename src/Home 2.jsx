@@ -43,8 +43,6 @@ class Body extends React.Component{
                 <Blurb /> 
                 <Socials />
                 <Skills />
-                <Projects />
-                <About/>
             </div>
         );
     }
@@ -53,7 +51,7 @@ class Body extends React.Component{
 class Blurb extends React.Component{
     render(){
         return(
-            <div className="flex-container blurb"> 
+            <div className="flex-container" id="blurb"> 
                 <p>Software engineer, web developer, digital photographer & creative</p>
             </div>
         );
@@ -88,7 +86,6 @@ class Socials extends React.Component{
 }
 
 class Header extends React.Component{
-   
     render(){
         return(
             <div className="flex-container header">
@@ -125,46 +122,8 @@ class Intro extends React.Component{
 class Skills extends React.Component{
     render(){
         return(
-            <div id="skills">
-                <table className="table">
-                    <tr>
-                        <th>Languages</th>
-                        <th>Technologies</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>C, Java, Python, PHP, Javascript, HTML, CSS, C#, SQL</p>
-                        </td>
-                        <td>Git & GitHub, React, Bootstrap, Adobe XD</td>
-                    </tr>
-                </table>
-            </div>
-        )
-    }
-}
-
-class Projects extends React.Component{
-    render(){
-        return(
-            <div id="projects">
-            <h3>Projects</h3>
-                <ul>
-                    <li>Side Scroller Platformer Video Game</li>
-                    <li>Productivity Desktop Application</li>
-                    <li>Virus Total Command Line Interface</li>
-                    <li>Band Meetup Website</li>
-                    <li>Tiny to Java translator</li>
-                </ul>
-            </div>
-        )
-    }
-}
-
-class About extends React.Component{
-    render(){
-        return(
-            <div id="about">
-                <p>First off</p>
+            <div>
+                <p>Languages and Technologies I use include: </p>
             </div>
         )
     }
