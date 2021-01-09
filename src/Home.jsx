@@ -127,16 +127,22 @@ class Skills extends React.Component{
         return(
             <div id="skills">
                 <table className="table">
-                    <tr>
-                        <th>Languages</th>
-                        <th>Technologies</th>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p>C, Java, Python, PHP, Javascript, HTML, CSS, C#, SQL</p>
-                        </td>
-                        <td>Git & GitHub, React, Bootstrap, Adobe XD</td>
-                    </tr>
+                   <thead>
+                        <tr>
+                            <th>Languages</th>
+                            <th>Technologies</th>
+                        </tr>
+                   </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>C, Java, Python, PHP, Javascript, HTML, CSS, C#, SQL</p>
+                            </td>
+                            <td>
+                                <p>Git & GitHub, React, Bootstrap, Adobe XD</p>
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         )
@@ -149,7 +155,7 @@ class Projects extends React.Component{
             <div id="projects">
             <h3>Projects</h3>
                 <ul>
-                    <li>Side Scroller Platformer Video Game</li>
+                    <li>Side Scrolling Platformer Video Game</li>
                     <li>Productivity Desktop Application</li>
                     <li>Virus Total Command Line Interface</li>
                     <li>Band Meetup Website</li>
@@ -164,7 +170,16 @@ class About extends React.Component{
     render(){
         return(
             <div id="about">
-                <p>First off</p>
+                <div className="flex-container">
+                    <div>
+                        <p>My name is Miranda Ransom.  I am a software developer located in Canada.  After finishing
+                        my undergraduate degree in computer science I hope to develop practical software
+                        and continue to grow my skills.</p>
+                    </div>
+                    <div>
+                        <p>photo goes here</p>
+                    </div>
+                </div>
             </div>
         )
     }
