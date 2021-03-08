@@ -4,6 +4,7 @@ import {TweenMax} from "gsap";
 import GitHubLogo from './images/GitHub-Mark-64px.png';
 import LinkedinLogo from './images/LinkedInLogo.png';
 import GmailLogo from './images/GmailLogo.png';
+import Myself from './images/myself.png';
 
 class Home extends React.Component {
     render(){
@@ -136,10 +137,25 @@ class Skills extends React.Component{
                     <tbody>
                         <tr>
                             <td>
-                                <p>C, Java, Python, PHP, Javascript, HTML, CSS, C#, SQL</p>
+                            <ul>
+                                <li>C</li>
+                                <li>Python</li>
+                                <li>PHP</li>
+                                <li>Javascript</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>C#</li>
+                                <li>SQL</li>
+                            </ul>
                             </td>
                             <td>
-                                <p>Git & GitHub, React, Bootstrap, Adobe XD</p>
+                            
+                            <ul>
+                                <li>Git / GitHub</li>
+                                <li>React</li>
+                                <li>Bootstrap</li>
+                                <li>Adobe XD</li>
+                            </ul>
                             </td>
                         </tr>
                     </tbody>
@@ -171,13 +187,13 @@ class About extends React.Component{
         return(
             <div id="about">
                 <div className="flex-container">
-                    <div>
+                    <div id="aboutmoi">
                         <p>My name is Miranda Ransom.  I am a software developer located in Canada.  After finishing
                         my undergraduate degree in computer science I hope to develop practical software
                         and continue to grow my skills.</p>
                     </div>
                     <div>
-                        <p>photo goes here</p>
+                        <img id="portait" src={Myself} alt="A photo of myself"/>
                     </div>
                 </div>
             </div>
