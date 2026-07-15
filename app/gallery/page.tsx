@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black"
     style={{
-      backgroundImage: 'url("/images/background.jpg")'
+      backgroundImage: 'url("/website/images/background.jpg")'
     }}>
       <main className="flex min-h-screen w-full flex-col items-center justify-center py-32 px-16">
         <div className="flex flex-1 flex-col  items-center gap-10 text-center min-w-9/10 bg-dark-blue/80">

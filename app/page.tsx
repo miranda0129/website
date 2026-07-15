@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black"
     style={{
-      backgroundImage: 'url("/images/background.jpg")'
+      backgroundImage: 'url("/website/images/background.jpg")'
     }}>
       <main className="flex min-h-screen w-full flex-col items-center justify-center py-32 px-16">
         
@@ -18,25 +18,25 @@ export default function Home() {
           <ul className="flex flex-row w-full justify-around p-3">
             <li>
               <a href="mirandaransom@proton.me">
-                <img src="/mail_icon.svg"
+                <img src="/website/mail_icon.svg"
                 className="h-12"></img>
               </a>
             </li>
             <li>
               <a href="https://github.com/miranda0129">
-                <img src="/github_icon.png"
+                <img src="/website/github_icon.png"
                 className="h-12"></img>
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/mkr0129/">
-                <img src="/instagram_icon.svg"
+                <img src="/website/instagram_icon.svg"
                 className="h-12"></img>
               </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/miranda0129/">
-                <img src="/linkedin_icon.png"
+                <img src="/website/linkedin_icon.png"
                 className="h-12" ></img>
               </a>
               
@@ -46,7 +46,7 @@ export default function Home() {
             <img 
               height = {500}
               className="rounded-2xl w-full max-w-md rounded-xl object-cover shrink"
-              src="/free.jpg" alt="Not free as in beer, free as in speech.">
+              src="/website/free.JPG" alt="Not free as in beer, free as in speech.">
             </img>
           </div>
         </div>

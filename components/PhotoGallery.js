@@ -2,20 +2,20 @@ import React from 'react';
 import Image from 'next/image';
 
 const photos = [
-	'/images/gallery/4D39DCBA-D20F-4FC8-8CF7-C527049B79BC.jpg',
-    '/images/gallery/IMG_0236.jpeg',
-    '/images/gallery/IMG_6407.JPG',
-    '/images/gallery/IMG_6417.JPG',
-    '/images/gallery/IMG_6418.JPG',
-    '/images/gallery/IMG_6470.JPG',
-    '/images/gallery/IMG_6580.JPG',
-    '/images/gallery/101_2254.JPG',
-    '/images/gallery/101_2410.JPG',
-    '/images/gallery/101_2211.jpg',
-    '/images/gallery/101_2228.JPG',
-    '/images/gallery/IMG_6640.JPG',
-    '/images/gallery/100_2491.JPG',
-    '/images/gallery/100_2468.JPG'
+	'/website/images/gallery/4D39DCBA-D20F-4FC8-8CF7-C527049B79BC.jpg',
+    '/website/images/gallery/IMG_0236.jpeg',
+    '/website/images/gallery/IMG_6407.JPG',
+    '/website/images/gallery/IMG_6417.JPG',
+    '/website/images/gallery/IMG_6418.JPG',
+    '/website/images/gallery/IMG_6470.JPG',
+    '/website/images/gallery/IMG_6580.JPG',
+    '/website/images/gallery/101_2254.JPG',
+    '/website/images/gallery/101_2410.JPG',
+    '/website/images/gallery/101_2211.JPG',
+    '/website/images/gallery/101_2228.JPG',
+    '/website/images/gallery/IMG_6640.JPG',
+    '/website/images/gallery/100_2491.JPG',
+    '/website/images/gallery/100_2468.JPG'
 ];
 
 const PhotoGallery = () => {
