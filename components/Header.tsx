@@ -4,8 +4,8 @@ const menuItems = [
   { label: "Home", href: "/" },
   { label: "Photo Gallery", href: "/gallery" },
   // { label: "Blog", href: "/blog" },
-  { label: "Projects", href: "/projects" },
-  { label: "Guestbook", href: "/guestbook" }
+  // { label: "Projects", href: "/projects" },
+  // { label: "Guestbook", href: "/guestbook" }
 ];
 
 export default function Header() {
